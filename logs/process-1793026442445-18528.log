@@ -1,0 +1,3 @@
+2026-10-26T14:54:02.449Z [INFO] Native runtime logging initialized
+2026-10-26T15:40:09.638Z [WARNING] [rust:github_telemetry::queue_worker] [telemetry-queue] POST was not accepted; events dropped {"error":"error sending request for url (https://telemetry.individual.githubcopilot.com/telemetry)","status":"None","event_count":13}
+2026-10-26T15:40:09.638Z [WARNING] [rust:github_telemetry::queue_worker] [telemetry-queue] POST was not accepted; events dropped {"error":"error sending request for url (https://telemetry.individual.githubcopilot.com/telemetry)","status":"None","event_count":13}

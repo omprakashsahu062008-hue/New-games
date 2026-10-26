@@ -1,0 +1,181 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  background: #075e38;
+  color: white;
+}
+
+header {
+  background: #063d27;
+  padding: 18px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.35);
+}
+
+header h1 {
+  font-size: 28px;
+}
+
+.status {
+  display: flex;
+  gap: 20px;
+  font-size: 15px;
+}
+
+main {
+  max-width: 1100px;
+  margin: auto;
+  padding: 25px;
+}
+
+.player {
+  margin: 20px 0;
+}
+
+.player h2 {
+  margin-bottom: 12px;
+  font-size: 18px;
+}
+
+.cards {
+  min-height: 115px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+
+.card {
+  width: 65px;
+  height: 95px;
+  background: white;
+  color: #111;
+  border-radius: 8px;
+  border: 2px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+  transition: 0.15s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+.card.red {
+  color: #d71920;
+}
+
+.card.selected {
+  transform: translateY(-12px);
+  border: 3px solid #ffd700;
+}
+
+.rank {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.suit {
+  font-size: 30px;
+}
+
+.table {
+  min-height: 220px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0.12);
+  padding: 30px;
+  text-align: center;
+}
+
+.pile-area {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+
+.pile-area p {
+  margin-bottom: 8px;
+}
+
+.pile {
+  width: 75px;
+  height: 105px;
+  border-radius: 9px;
+  border: 2px solid white;
+  background: #174a9c;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+#discardPile {
+  background: white;
+  color: #111;
+}
+
+.message {
+  margin-top: 25px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.controls button {
+  border: none;
+  padding: 12px 22px;
+  border-radius: 7px;
+  cursor: pointer;
+  background: #ffd700;
+  color: #111;
+  font-weight: bold;
+}
+
+.controls button:hover {
+  transform: scale(1.04);
+}
+
+@media (max-width: 600px) {
+
+  main {
+    padding: 12px;
+  }
+
+  .card {
+    width: 45px;
+    height: 70px;
+  }
+
+  .rank {
+    font-size: 18px;
+  }
+
+  .suit {
+    font-size: 21px;
+  }
+
+  .pile-area {
+    gap: 30px;
+  }
+}

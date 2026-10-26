@@ -1,0 +1,19 @@
+2026-10-26T16:47:21.465Z [INFO] Native runtime logging initialized
+2026-10-26T16:47:21.531Z [INFO] [rust:copilot_runtime::storage::managed_settings] [managedSettings] device MDM: no policy present on this device
+2026-10-26T16:47:21.531Z [INFO] [rust:copilot_runtime::storage::managed_settings] [managedSettings] confirmed no policy served from fresh cache (age 1036760ms) from https://github.com
+2026-10-26T16:47:21.531Z [INFO] [rust:copilot_runtime::storage::managed_settings] [managedSettings] effective policy resolved: source=none, bypassDisabled=false, serverFetchFailed=false, policyHelperConfigured=false, policyHelperAuthority=none, policyHelperFailed=false, policyHelperFailClosed=false, policyHelperContributedSandbox=false
+2026-10-26T16:47:21.545Z [INFO] [rust:copilot_runtime::shared_api::permissions] [managedSettings] applied: no bypass restriction in force (managed policy absent)
+2026-10-26T16:47:21.548Z [INFO] [rust:copilot_runtime::shared_api::permissions] [managedSettings] applied: no bypass restriction in force (managed policy absent)
+2026-10-26T16:47:21.550Z [WARNING] [rust:copilot_runtime::session::api_session_options_update] Failed to reload managed hooks after enabling managed settings {"error":"no hook session for session id ******"}
+2026-10-26T16:47:21.553Z [INFO] [rust:copilot_runtime::managed_settings::api_session] [managedSettings] self-fetch starting for account https://github.com/omprakashsahu062008-hue
+2026-10-26T16:47:21.557Z [INFO] [rust:copilot_runtime::storage::managed_settings] [managedSettings] device MDM: no policy present on this device
+2026-10-26T16:47:21.557Z [INFO] [rust:copilot_runtime::storage::managed_settings] [managedSettings] confirmed no policy served from fresh cache (age 1036786ms) from https://github.com
+2026-10-26T16:47:21.557Z [INFO] [rust:copilot_runtime::storage::managed_settings] [managedSettings] effective policy resolved: source=none, bypassDisabled=false, serverFetchFailed=false, policyHelperConfigured=false, policyHelperAuthority=none, policyHelperFailed=false, policyHelperFailClosed=false, policyHelperContributedSandbox=false
+2026-10-26T16:47:21.558Z [INFO] [rust:copilot_runtime::shared_api::permissions] [managedSettings] applied: no bypass restriction in force (managed policy absent)
+2026-10-26T16:47:21.559Z [INFO] [rust:copilot_runtime::managed_settings::api_session] [managedSettings] self-fetch complete for https://github.com/omprakashsahu062008-hue: bypassDisabled=false, serverFetchFailed=false, serverResolution=FreshCache, serverRetryableFailure=false, deviceLoadFailed=false
+2026-10-26T16:47:21.560Z [WARNING] [rust:events_engine::host_delivery] event was not delivered to its registered session host {"error":"GenericFailure, no session host is registered for session ******"}
+2026-10-26T16:47:21.786Z [INFO] [rust:rt_tgrep] tgrep status changed {"status":"server-not-running"}
+2026-10-26T16:47:21.923Z [INFO] SDK session attached: sha256:8f1d26c3437eeba407aaa4b50bf5ddc221333d08f7c01318ad0970dad91bf681
+2026-10-26T16:47:21.934Z [INFO] [rust:otel] OTel session policy applied
+2026-10-26T16:47:22.033Z [INFO] [rust:copilot_runtime::session::registry] Closed interrupted sub-agent records on resume {"closed":0,"dangling":0}
+2026-10-26T16:47:23.642Z [WARNING] [rust:standalone_host::standalone] Standalone JSON-RPC one-way host call failed {"error":"Standalone server does not support host call 'lifecycle_server_shutdown_finalize'"}

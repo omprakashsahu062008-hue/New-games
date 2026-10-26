@@ -1,0 +1,47 @@
+2026-10-26T15:12:11.912Z [INFO] Native runtime logging initialized
+2026-10-26T15:12:13.030Z [INFO] [rust:copilot_runtime::storage::managed_settings] [managedSettings] device MDM: no policy present on this device
+2026-10-26T15:12:13.030Z [INFO] [rust:copilot_runtime::storage::managed_settings] [managedSettings] server policy: none for this account (404: no configured policy) from https://github.com
+2026-10-26T15:12:13.030Z [INFO] [rust:copilot_runtime::storage::managed_settings] [managedSettings] effective policy resolved: source=none, bypassDisabled=false, serverFetchFailed=false, policyHelperConfigured=false, policyHelperAuthority=none, policyHelperFailed=false, policyHelperFailClosed=false, policyHelperContributedSandbox=false
+2026-10-26T15:12:13.069Z [INFO] [rust:copilot_runtime::shared_api::permissions] [managedSettings] applied: no bypass restriction in force (managed policy absent)
+2026-10-26T15:12:13.094Z [INFO] [rust:copilot_runtime::shared_api::permissions] [managedSettings] applied: no bypass restriction in force (managed policy absent)
+2026-10-26T15:12:13.095Z [WARNING] [rust:copilot_runtime::session::api_session_options_update] Failed to reload managed hooks after enabling managed settings {"error":"no hook session for session id ******"}
+2026-10-26T15:12:13.095Z [INFO] [rust:copilot_runtime::managed_settings::api_session] [managedSettings] self-fetch starting for account https://github.com/omprakashsahu062008-hue
+2026-10-26T15:12:13.330Z [INFO] [rust:rt_tgrep] tgrep status changed {"status":"server-not-running"}
+2026-10-26T15:12:13.955Z [INFO] [rust:copilot_runtime::storage::managed_settings] [managedSettings] device MDM: no policy present on this device
+2026-10-26T15:12:13.955Z [INFO] [rust:copilot_runtime::storage::managed_settings] [managedSettings] server policy: none for this account (404: no configured policy) from https://github.com
+2026-10-26T15:12:13.955Z [INFO] [rust:copilot_runtime::storage::managed_settings] [managedSettings] effective policy resolved: source=none, bypassDisabled=false, serverFetchFailed=false, policyHelperConfigured=false, policyHelperAuthority=none, policyHelperFailed=false, policyHelperFailClosed=false, policyHelperContributedSandbox=false
+2026-10-26T15:12:13.956Z [INFO] [rust:copilot_runtime::shared_api::permissions] [managedSettings] applied: no bypass restriction in force (managed policy absent)
+2026-10-26T15:12:13.959Z [INFO] [rust:copilot_runtime::managed_settings::api_session] [managedSettings] self-fetch complete for https://github.com/omprakashsahu062008-hue: bypassDisabled=false, serverFetchFailed=false, serverResolution=Live, serverRetryableFailure=false, deviceLoadFailed=false
+2026-10-26T15:12:13.959Z [WARNING] [rust:events_engine::host_delivery] event was not delivered to its registered session host {"error":"GenericFailure, no session host is registered for session ******"}
+2026-10-26T15:12:14.223Z [INFO] SDK session attached: sha256:075a6eac226118bdaab3d1bc08126455ee850d14af591d5b121c112e3a3d6ac9
+2026-10-26T15:12:14.284Z [INFO] [rust:otel] OTel session policy applied
+2026-10-26T15:13:18.534Z [INFO] [rust:copilot_runtime::session::registry] Closed interrupted sub-agent records on resume {"closed":0,"dangling":0}
+2026-10-26T15:28:43.349Z [WARNING] [rust:remote::api_session_exporter] remote session batch flush failed {"error":"error sending request for url (https://api.individual.githubcopilot.com/agents/sessions/******/events)","event_count":6,"completed_command_id_count":0}
+2026-10-26T15:28:43.459Z [WARNING] [rust:remote::shared_api] Failed to stop remote exporter {"error":"remote session exporter stopped with 6 unsent event(s)"}
+2026-10-26T15:28:45.998Z [WARNING] [rust:github_telemetry::queue_worker] [telemetry-queue] in-flight flushes did not settle within 2499ms; posting the final batch alongside them
+2026-10-26T15:28:45.998Z [WARNING] [rust:github_telemetry::queue_worker] [telemetry-queue] in-flight flushes did not settle within 2499ms; posting the final batch alongside them
+2026-10-26T15:28:48.698Z [INFO] [rust:copilot_runtime::storage::managed_settings] [managedSettings] device MDM: no policy present on this device
+2026-10-26T15:28:48.698Z [INFO] [rust:copilot_runtime::storage::managed_settings] [managedSettings] server policy: none for this account (404: no configured policy) from https://github.com
+2026-10-26T15:28:48.698Z [INFO] [rust:copilot_runtime::storage::managed_settings] [managedSettings] effective policy resolved: source=none, bypassDisabled=false, serverFetchFailed=false, policyHelperConfigured=false, policyHelperAuthority=none, policyHelperFailed=false, policyHelperFailClosed=false, policyHelperContributedSandbox=false
+2026-10-26T15:28:48.742Z [INFO] [rust:copilot_runtime::shared_api::permissions] [managedSettings] applied: no bypass restriction in force (managed policy absent)
+2026-10-26T15:28:48.802Z [INFO] [rust:copilot_runtime::shared_api::permissions] [managedSettings] applied: no bypass restriction in force (managed policy absent)
+2026-10-26T15:28:48.806Z [INFO] [rust:copilot_runtime::managed_settings::api_session] [managedSettings] self-fetch starting for account https://github.com/omprakashsahu062008-hue
+2026-10-26T15:28:48.807Z [WARNING] [rust:copilot_runtime::session::api_session_options_update] Failed to reload managed hooks after enabling managed settings {"error":"no hook session for session id ******"}
+2026-10-26T15:28:48.999Z [INFO] [rust:rt_tgrep] tgrep status changed {"status":"server-not-running"}
+2026-10-26T15:39:58.126Z [WARNING] [rust:copilot_runtime::session::services::managed_settings_refresh_service] Managed-settings replacement chain exceeded its settlement deadline {"observed_generation":2,"observed_lineage":2}
+2026-10-26T15:39:58.126Z [INFO] [rust:copilot_runtime::storage::managed_settings] [managedSettings] device MDM: no policy present on this device
+2026-10-26T15:39:58.126Z [WARNING] [rust:copilot_runtime::storage::managed_settings] [managedSettings] server policy fetch failed — no cache to fall back on, failing open: [fetchManagedSettings] Network error: request failed: error sending request for url (https://api.github.com/copilot_internal/managed_settings?client_id=github%2Fautopilot&client_version=1.0.102-0.unstable.r39844011292.g0401dd9&copilot_runtime_version=1.0.102-0.unstable.r39844011292.g0401dd9)
+2026-10-26T15:39:58.126Z [INFO] [rust:copilot_runtime::storage::managed_settings] [managedSettings] effective policy resolved: source=none, bypassDisabled=false, serverFetchFailed=false, policyHelperConfigured=false, policyHelperAuthority=none, policyHelperFailed=false, policyHelperFailClosed=false, policyHelperContributedSandbox=false
+2026-10-26T15:39:58.126Z [INFO] [rust:copilot_runtime::shared_api::permissions] [managedSettings] applied: no bypass restriction in force (managed policy present but does not disable bypass)
+2026-10-26T15:39:58.134Z [INFO] [rust:copilot_runtime::session::registry] Closed interrupted sub-agent records on resume {"closed":0,"dangling":0}
+2026-10-26T15:39:58.159Z [WARNING] [rust:copilot_runtime::session::services::managed_settings_refresh_service] Managed-settings generation was disposed with settlement work still in flight {"generation":2,"settlement_lineage":2,"active_ingests":1,"active_policy_applications":0}
+2026-10-26T15:39:58.183Z [INFO] [rust:copilot_runtime::managed_settings::api_session] [managedSettings] self-fetch complete for https://github.com/omprakashsahu062008-hue: bypassDisabled=false, serverFetchFailed=false, serverResolution=FailOpen, serverRetryableFailure=true, deviceLoadFailed=false
+2026-10-26T15:39:58.183Z [WARNING] [rust:events_engine::host_delivery] event was not delivered to its registered session host {"error":"GenericFailure, no session host is registered for session ******"}
+2026-10-26T15:39:58.183Z [WARNING] [rust:events_engine::host_delivery] event was not delivered to its registered session host {"error":"GenericFailure, no session host is registered for session ******"}
+2026-10-26T15:39:58.259Z [WARNING] [rust:github_telemetry::queue_worker] [telemetry-queue] POST was not accepted; events dropped {"error":"error sending request for url (https://telemetry.individual.githubcopilot.com/telemetry)","status":"None","event_count":5}
+2026-10-26T15:39:58.381Z [WARNING] [rust:github_telemetry::queue_worker] [telemetry-queue] POST was not accepted; events dropped {"error":"error sending request for url (https://telemetry.individual.githubcopilot.com/telemetry)","status":"None","event_count":9}
+2026-10-26T15:39:58.389Z [WARNING] [rust:github_telemetry::queue_worker] [telemetry-queue] POST was not accepted; events dropped {"error":"error sending request for url (https://telemetry.individual.githubcopilot.com/telemetry)","status":"None","event_count":9}
+2026-10-26T15:39:58.392Z [WARNING] [rust:copilot_runtime::protocol::jsonrpc::engine] failed to inspect pending SDK callbacks {"error":"session not found: ******"}
+2026-10-26T15:39:58.392Z [WARNING] [rust:copilot_runtime::protocol::jsonrpc::engine] failed to inspect pending SDK callbacks {"error":"session not found: ******"}
+2026-10-26T15:39:58.392Z [WARNING] [rust:copilot_runtime::protocol::jsonrpc::engine] failed to inspect pending SDK callbacks {"error":"session not found: ******"}
+2026-10-26T15:39:58.408Z [WARNING] [rust:standalone_host::standalone] Standalone JSON-RPC one-way host call failed {"error":"Standalone server does not support host call 'lifecycle_server_shutdown_finalize'"}

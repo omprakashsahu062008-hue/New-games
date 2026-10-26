@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rummy Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>♠️ Rummy</h1>
+    <div class="status">
+      <span id="turnText">Your Turn</span>
+      <span>Score: <b id="score">0</b></span>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- Opponent -->
+    <section class="player opponent">
+      <h2>🤖 Computer</h2>
+      <div id="opponentCards" class="cards"></div>
+    </section>
+
+    <!-- Game table -->
+    <section class="table">
+
+      <div class="pile-area">
+
+        <div>
+          <p>Draw Pile</p>
+          <button id="drawPile" class="pile">🂠</button>
+        </div>
+
+        <div>
+          <p>Discard Pile</p>
+          <button id="discardPile" class="pile">
+            <span id="discardCard">--</span>
+          </button>
+        </div>
+
+      </div>
+
+      <div id="message" class="message">
+        Draw a card to start your turn.
+      </div>
+
+    </section>
+
+    <!-- Player -->
+    <section class="player">
+      <h2>👤 You</h2>
+      <div id="playerCards" class="cards"></div>
+    </section>
+
+    <div class="controls">
+      <button id="sortBtn">Sort Cards</button>
+      <button id="declareBtn">Declare</button>
+      <button id="newGameBtn">New Game</button>
+    </div>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
