@@ -1,0 +1,14 @@
+{
+  "socketPath": "\\\\.\\pipe\\mcp-b452d9ee-05de-45c8-bfbe-4688f5707591.sock",
+  "scheme": "pipe",
+  "headers": {
+    "Authorization": "Nonce 1d2ceade-9e97-458e-9f31-d8d118ffb1ef"
+  },
+  "pid": 7708,
+  "ideName": "Visual Studio Code",
+  "timestamp": 1793035503681,
+  "workspaceFolders": [
+    "c:\\Users\\ompra\\.copilot"
+  ],
+  "isTrusted": true
+}

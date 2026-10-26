@@ -1,0 +1,21 @@
+2026-10-26T17:37:28.886Z [INFO] Native runtime logging initialized
+2026-10-26T17:37:30.234Z [INFO] [rust:copilot_runtime::storage::managed_settings] [managedSettings] device MDM: no policy present on this device
+2026-10-26T17:37:30.234Z [INFO] [rust:copilot_runtime::storage::managed_settings] [managedSettings] server policy: none for this account (404: no configured policy) from https://github.com
+2026-10-26T17:37:30.234Z [INFO] [rust:copilot_runtime::storage::managed_settings] [managedSettings] effective policy resolved: source=none, bypassDisabled=false, serverFetchFailed=false, policyHelperConfigured=false, policyHelperAuthority=none, policyHelperFailed=false, policyHelperFailClosed=false, policyHelperContributedSandbox=false
+2026-10-26T17:37:30.249Z [INFO] [rust:copilot_runtime::shared_api::permissions] [managedSettings] applied: no bypass restriction in force (managed policy absent)
+2026-10-26T17:37:30.265Z [INFO] [rust:copilot_runtime::shared_api::permissions] [managedSettings] applied: no bypass restriction in force (managed policy absent)
+2026-10-26T17:37:30.266Z [WARNING] [rust:copilot_runtime::session::api_session_options_update] Failed to reload managed hooks after enabling managed settings {"error":"no hook session for session id ******"}
+2026-10-26T17:37:30.266Z [INFO] [rust:copilot_runtime::managed_settings::api_session] [managedSettings] self-fetch starting for account https://github.com/omprakashsahu062008-hue
+2026-10-26T17:37:30.476Z [INFO] [rust:rt_tgrep] tgrep server slot is occupied; falling back to ripgrep
+2026-10-26T17:37:30.476Z [INFO] [rust:rt_tgrep] tgrep status changed {"status":"server-not-running"}
+2026-10-26T17:37:30.477Z [ERROR] [rust:github_telemetry::session] session telemetry event handler failed {"error":"Failed to parse telemetry input JSON: unknown variant `server_limit`, expected one of `use_tgrep_false`, `use_builtin_ripgrep_false`, `organization`, `organization_policy_auth_pending`, `organization_policy_unknown`, `virtual_filesystem`, `cloud_sync_root`, `cloud_sync_detection_failed`, `workspace_not_local`"}
+2026-10-26T17:37:31.089Z [INFO] [rust:copilot_runtime::storage::managed_settings] [managedSettings] device MDM: no policy present on this device
+2026-10-26T17:37:31.089Z [INFO] [rust:copilot_runtime::storage::managed_settings] [managedSettings] server policy: none for this account (404: no configured policy) from https://github.com
+2026-10-26T17:37:31.089Z [INFO] [rust:copilot_runtime::storage::managed_settings] [managedSettings] effective policy resolved: source=none, bypassDisabled=false, serverFetchFailed=false, policyHelperConfigured=false, policyHelperAuthority=none, policyHelperFailed=false, policyHelperFailClosed=false, policyHelperContributedSandbox=false
+2026-10-26T17:37:31.090Z [INFO] [rust:copilot_runtime::shared_api::permissions] [managedSettings] applied: no bypass restriction in force (managed policy absent)
+2026-10-26T17:37:31.091Z [INFO] [rust:copilot_runtime::managed_settings::api_session] [managedSettings] self-fetch complete for https://github.com/omprakashsahu062008-hue: bypassDisabled=false, serverFetchFailed=false, serverResolution=Live, serverRetryableFailure=false, deviceLoadFailed=false
+2026-10-26T17:37:31.091Z [WARNING] [rust:events_engine::host_delivery] event was not delivered to its registered session host {"error":"GenericFailure, no session host is registered for session ******"}
+2026-10-26T17:37:31.102Z [INFO] SDK session attached: sha256:914970d51c194ba4dd27d4863d09be2d84d5a004af6fc4d25084b65548b52440
+2026-10-26T17:37:31.132Z [INFO] [rust:otel] OTel session policy applied
+2026-10-26T17:47:28.807Z [INFO] [rust:copilot_runtime::session::registry] Closed interrupted sub-agent records on resume {"closed":0,"dangling":0}
+2026-10-26T17:47:32.051Z [WARNING] [rust:standalone_host::standalone] Standalone JSON-RPC one-way host call failed {"error":"Standalone server does not support host call 'lifecycle_server_shutdown_finalize'"}
